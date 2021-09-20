@@ -1,3 +1,7 @@
-let arr = [1, 2, 3, 4, 5];
-let sum = arr.reduce((acc, i) => acc + i);
-console.log(sum)
+let matrix = [
+    [4, 5, 6],
+    [6, 5, 4],
+    [5, 5, 5]];
+
+let rotatedMatrix = matrix[0].map((x, i) => matrix.map(x => x[i]));
+matrix.forEach( arr => console.log(arr));
