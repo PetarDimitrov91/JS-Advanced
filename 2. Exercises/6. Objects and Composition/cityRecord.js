@@ -7,8 +7,6 @@ function city(name, population, trasury) {
     return result;
 }
 
-console.log(city['population']);
-
 console.log(city('Tortuga',
     7000,
     15000

@@ -45,27 +45,84 @@
 // console.log(person['age']);
 
 
-let capital = "Sofia";
-let population = 123424324;
-let country = "Bulgaria";
+// let capital = "Sofia";
+// let population = 123424324;
+// let country = "Bulgaria";
 
-let town = {
-    capital,
-    population,
-    chef: {
-        kmet: "Petar"
-    },
-    country
+// let town = {
+//     capital,
+//     population,
+//     chef: {
+//         kmet: "Petar"
+//     },
+//     country
+// }
+
+// console.log(town);
+
+// town.location = {
+//     lat: 42.321,
+//     lng: 23.322
+// };
+
+
+// const person = {
+//     firstName: 'Petar',
+//     lastName: 'Dimitrov',
+//     company: {
+//         name: 'PVD GmbH',
+//         employees: {
+//             name: 'Ivan Petrov',
+
+//         }
+//     }
+// };
+
+// const { company: { employees: { name } } } = person;
+
+// console.log(name);
+
+// const employees = [
+//     { name: 'John', position: 'worker' }, //first element
+//     { name: 'Jane', position: 'secretary' }
+// ];
+// const [{ name }] = employees;
+
+// console.log(name);
+
+// function print() {
+//     console.log(`${this.name} is printing a page`);
+// }
+
+// function scan() {
+//     console.log(`${this.name} is scanning a document`);
+// }
+// const printer = {
+//     name: 'ACME Printer',
+//     print
+// };
+// const scanner = {
+//     name: 'Initech Scanner',
+//     scan
+// };
+// const copier = {
+//     name: 'ComTron Copier',
+//     print,
+//     scan
+// };
+
+// copier.scan();
+// copier.print();
+// printer.print();
+
+function createRect(width, height) {
+    const rect = { width, height };
+    rect.getArea = () => {
+        return rect.width * rect.height;
+    };
+    return rect;
 }
 
-console.log(town);
-
-town.location = {
-    lat: 42.321,
-    lng: 23.322
-};
-
-console.log(chef: { kmet }) = town;
-
-
-const {}
+const area = createRect(5, 5);
+console.log(area);
+console.log(area.getArea());
