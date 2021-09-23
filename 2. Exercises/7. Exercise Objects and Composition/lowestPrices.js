@@ -1,19 +1,20 @@
-function checkPrices(input) {
-    let obj = {};
-    const res = [];
-    for (const element of input) {
-        let [town, product, currentPrice] = element.split(' | ');
-        currentPrice = Number(currentPrice);
-        let currentObj = {
-            product: {
-                name: product,
-                price: currentPrice,
-                town: town
-            }
+function checkPrices(arr) {
+    let catalogue = {};
+
+    arr.forEach((e) => {
+        let [town, product, price] = e.split(' | ');
+        price = Number(price);
+        if (!catalogue[product]) {
+            catalogue[product] = {};
         }
-        res.push(currentObj);
+        catalogue[product][town] = price;
+    });
+
+    for (const prod in catalogue) {
+        const sorted = Object.entries(catalogue[prod])
+            .sort((a, b) => a[1] - b[1]);
+        console.log(`${prod} -> ${sorted[0][1]} (${sorted[0][0]})`);
     }
-    console.log(res)
 }
 
 checkPrices(['Sample Town | Sample Product | 1000',
