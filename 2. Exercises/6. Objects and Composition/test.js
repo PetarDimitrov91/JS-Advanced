@@ -115,14 +115,22 @@
 // copier.print();
 // printer.print();
 
-function createRect(width, height) {
-    const rect = { width, height };
-    rect.getArea = () => {
-        return rect.width * rect.height;
-    };
-    return rect;
+// function createRect(width, height) {
+//     const rect = { width, height };
+//     rect.getArea = () => {
+//         return rect.width * rect.height;
+//     };
+//     return rect;
+// }
+
+// const area = createRect(5, 5);
+// console.log(area);
+// console.log(area.getArea());
+
+const obj = {
+    '1': 21,
+    2: 23,
+    3: 213
 }
 
-const area = createRect(5, 5);
-console.log(area);
-console.log(area.getArea());
+console.log(obj);
