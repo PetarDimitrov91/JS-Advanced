@@ -9,7 +9,7 @@ function create(words) {
       div.appendChild(paragraph);
 
       div.addEventListener('click', function (){
-         paragraph.style.display = 'block'
+         paragraph.style.display = 'block';
       });
 
       contentDiv.appendChild(div);
