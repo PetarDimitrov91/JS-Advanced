@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f846b43e-9a84-45ee-a763-b2ba03f06df7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/14. Unit Testing and Error Handling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/15. Exercise Unit Testing and Error Handling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evenOrOdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/probe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/mathTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/oddEvenTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Notification/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/05.Notification/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.Dynamic-Validation/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/06.Dynamic-Validation/app.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1z97COp54W23kmg10lhMK5OUM9U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="probe.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/probe.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.probe.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f846b43e-9a84-45ee-a763-b2ba03f06df7" name="Changes" comment="" />
+      <created>1633548322837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633548322837</updated>
+      <workItem from="1633548324542" duration="9000" />
+      <workItem from="1633550290387" duration="819000" />
+      <workItem from="1633633256544" duration="3095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
