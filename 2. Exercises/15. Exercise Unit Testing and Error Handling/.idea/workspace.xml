@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f846b43e-9a84-45ee-a763-b2ba03f06df7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/14. Unit Testing and Error Handling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Unit Testing and Error Handling/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/15. Exercise Unit Testing and Error Handling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evenOrOdd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/probe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requestValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/mathTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/oddEvenTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05.Notification/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/05.Notification/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06.Dynamic-Validation/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/06.Dynamic-Validation/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07.Form-Validation/formValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/07.Form-Validation/formValidation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../11. Exercise DOM Manipulations and Events" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -76,6 +57,7 @@
       <workItem from="1633548324542" duration="9000" />
       <workItem from="1633550290387" duration="819000" />
       <workItem from="1633633256544" duration="3095000" />
+      <workItem from="1633698506997" duration="7653000" />
     </task>
     <servers />
   </component>
