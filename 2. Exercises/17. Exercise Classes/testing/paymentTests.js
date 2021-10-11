@@ -1,4 +1,4 @@
-const {expect, assert} = require('chai');
+const { expect, assert } = require('chai');
 const PaymentPackage = require('../testing/payment');
 
 describe('Testing the PaymentPackage Class', () => {
@@ -70,7 +70,7 @@ describe('Testing the PaymentPackage Class', () => {
 
     describe('active tests', () => {
         beforeEach(() => {
-            newInstance = new PaymentPackage('pay', 200)
+            newInstance = new PaymentPackage('pay', 200);
         });
 
         it(`active should return true when new instance is initialised`, () => {
@@ -89,14 +89,14 @@ describe('Testing the PaymentPackage Class', () => {
 
     describe('toString tests', () => {
         beforeEach(() => {
-            newInstance = new PaymentPackage('pays', 1000)
+            newInstance = new PaymentPackage('pays', 1000);
         });
 
         it('should return the correct string by active status', () => {
-        expect(newInstance.toString()).to.equal('Package: pays\n- Value (excl. VAT): 1000\n- Value (VAT 20%): 1200');
+            expect(newInstance.toString()).to.equal('Package: pays\n- Value (excl. VAT): 1000\n- Value (VAT 20%): 1200');
         });
 
-        it('\'should return the correct string by not active status\'',() => {
+        it('\'should return the correct string by not active status\'', () => {
             newInstance.active = false;
             expect(newInstance.toString()).to.equal('Package: pays (inactive)\n- Value (excl. VAT): 1000\n- Value (VAT 20%): 1200');
         });
