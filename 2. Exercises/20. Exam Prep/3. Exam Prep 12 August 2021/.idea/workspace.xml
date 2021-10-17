@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96397325-882c-4bd8-9607-2226d24779a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/3. Exam Prep 12 August 2021.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. Art Gallery/ArtGallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. Art Gallery/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3. Cinema/test/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3. Cinema/test/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3. Cinema/test/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1. Exam Prep 1/Pet_Me - Resources/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Exam Prep 1/Pet_Me - Resources/solution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Exam Prep 27 June 2021/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Exam Prep 27 June 2021/.idea/4. Exam Prep 27 June 2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Exam Prep 27 June 2021/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Exam Prep 27 June 2021/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Exam Prep 27 June 2021/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Exam Prep 27 June 2021/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Exam Prep 27 June 2021/2. Resturant/Restaurant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4. Exam Prep 27 June 2021" />
   </component>
   <component name="RunManager" selected="Node.js.ArtGallery.js">
     <configuration name="ArtGallery.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2. Art Gallery/ArtGallery.js" working-dir="$PROJECT_DIR$/2. Art Gallery">
@@ -76,6 +73,8 @@
       <updated>1634292140338</updated>
       <workItem from="1634292141538" duration="18795000" />
       <workItem from="1634369146756" duration="3224000" />
+      <workItem from="1634379350587" duration="26000" />
+      <workItem from="1634380247288" duration="36000" />
     </task>
     <servers />
   </component>
