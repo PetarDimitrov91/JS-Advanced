@@ -1,8 +1,8 @@
 const numberOperations = {
-    powNumber: function (num) {
+    powNumber: function(num) {
         return num * num;
     },
-    numberChecker: function (input) {
+    numberChecker: function(input) {
         input = Number(input);
 
         if (isNaN(input)) {
@@ -15,7 +15,7 @@ const numberOperations = {
             return 'The number is greater or equal to 100!';
         }
     },
-    sumArrays: function (array1, array2) {
+    sumArrays: function(array1, array2) {
 
         const longerArr = array1.length > array2.length ? array1 : array2;
         const rounds = array1.length < array2.length ? array1.length : array2.length;
@@ -31,3 +31,5 @@ const numberOperations = {
         return resultArr
     }
 };
+
+module.exports = numberOperations;
