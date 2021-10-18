@@ -19,7 +19,7 @@ class Restaurant {
                     this.stockProducts[productName] = Number(productQuantity);
                     this.budgetMoney -= productTotalPrice;
                 }
-                this.history.push(`Successfully loaded ${productQuantity} ${productName}`)
+                this.history.push(`Successfully loaded ${productQuantity} ${productName}`);
                 output.push(`Successfully loaded ${productQuantity} ${productName}`);
             } else {
                 this.history.push(`There was not enough money to load ${productQuantity} ${productName}`);
@@ -40,17 +40,17 @@ class Restaurant {
             this.menu[meal] = {
                 products,
                 price
-            }
+            };
         } else {
-            return `The ${meal} is already in the our menu, try something different.`
+            return `The ${meal} is already in the our menu, try something different.`;
         }
 
         const menuSize = Object.keys(this.menu).length;
 
         if (menuSize === 1) {
-            return `Great idea! Now with the ${meal} we have 1 meal in the menu, other ideas?`
+            return `Great idea! Now with the ${meal} we have 1 meal in the menu, other ideas?`;
         } else if (menuSize === 0 || menuSize > 1) {
-            return `Great idea! Now with the ${meal} we have ${menuSize} meals in the menu, other ideas?`
+            return `Great idea! Now with the ${meal} we have ${menuSize} meals in the menu, other ideas?`;
         }
 
 
@@ -63,14 +63,14 @@ class Restaurant {
 
         const output = [];
         for (const menuKey in this.menu) {
-            output.push(`${menuKey} - $ ${this.menu[menuKey].price}`)
+            output.push(`${menuKey} - $ ${this.menu[menuKey].price}`);
         }
         return output.join('\n');
     };
 
     makeTheOrder(meal) {
         if (!this.menu[meal]) {
-            return `There is not ${meal} yet in our menu, do you want to order something else?`
+            return `There is not ${meal} yet in our menu, do you want to order something else?`;
         }
 
         for (const key in this.menu[meal].products) {
@@ -90,5 +90,3 @@ class Restaurant {
 let kitchen = new Restaurant(1000);
 console.log(kitchen.loadProducts(['Banana 10 5', 'Banana 20 10', 'Strawberries 50 30', 'Yogurt 10 10', 'Yogurt 500 1500', 'Honey 5 50']));
 console.log(kitchen.history);
-
-
