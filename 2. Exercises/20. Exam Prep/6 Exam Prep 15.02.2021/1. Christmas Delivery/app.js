@@ -66,4 +66,7 @@ function solution() {
             listOfGifts.appendChild(sortedElements[i]);
         }
     }
+    const x = () => {
+      //test to commit//
+    }
 }
