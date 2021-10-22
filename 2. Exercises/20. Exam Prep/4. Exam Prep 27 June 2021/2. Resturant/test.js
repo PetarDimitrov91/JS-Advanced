@@ -1,22 +1,22 @@
-const menu = {
-    'salad': {
-        products: {
-            'Banana': 1,
-            'Strawberry': 2,
-            'Chery': 3
-        },
-        price: 100
-    },
-    'other': {
-        products: {
-            'Banana': 1,
-            'Strawberry': 2,
-            'Chery': 3
-        },
-        price: 100
+class Something {#
+    property;
+
+    constructor() {
+        this.#property = "test";
+    }
+
+
+
+    #
+    privateMethod() {
+        return 'hello world';
+    }
+
+    getPrivateMessage() {
+        return this.#property;
     }
 }
 
-console.log(Object.keys(menu).length);
+const instance = new Something();
 
-
+console.log(instance.getPrivateMessage()); //=> test
